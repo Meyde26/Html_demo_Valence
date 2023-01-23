@@ -3,8 +3,16 @@
     padding: 0;
 }
 
+@font-face {
+    font-family: 'Foobar';
+    src: url('../fonts/Foobar_Pro-Regular.woff') format('woff');
+}
+
 :root{
-    --primary: rgb(41, 217, 223);
+    --primary: rgb(27, 109, 185);
+    --secondary: #b7b78a;
+    --header-height: 85.5px;
+    --border-radius: 10px;
 }
 
 a{
@@ -12,6 +20,31 @@ a{
     text-decoration: none;
     color: inherit;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'Foobar';
+    color: var(--primary);
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+h1{
+    font-size: 2.7rem;
+}
+
+h2{
+    font-size: 2.4rem;
+}
+
+h3{
+    font-size: 2.1rem;
+}
+
 /********************HEADER*******************/
 
 .navbar{

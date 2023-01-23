@@ -1,0 +1,29 @@
+@import 'main.css';
+
+
+
+/*****************BANNER*************/
+.banner{
+    height: calc(100vh - var(--header-height));
+    background-image:url(../img/banner-hero.jpeg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.banner-header{
+    padding: 3em;
+    margin-right: 10%;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: var(--border-radius);
+    max-width: 20%;
+    -webkit-backdrop-filter: blur(3px);
+}
+
+.banner-header .separator{
+    border: none;
+    border-top: 2px solid var(--secondary);
+    margin-bottom: 10px;
+}
