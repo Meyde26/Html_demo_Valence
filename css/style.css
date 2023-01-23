@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --primary: rgb(41, 217, 223);
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+}
+/********************HEADER*******************/
+
+.navbar{
+    background-color: var(--primary);
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 9999999;
+}
+
+.navbar-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 0;
+
+}
+
+.logo{
+    height: 50px;
+
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+.navbar-links{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 2em;
+}
+
